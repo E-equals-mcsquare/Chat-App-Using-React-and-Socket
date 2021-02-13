@@ -1,0 +1,73 @@
+.interfaceBackground {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  position: static;
+  overflow-y: scroll;
+}
+
+.receiverText {
+    background-color: #61dafb;
+    padding: 10px;
+    border-radius: 5px 20px 10px;
+    font-weight: 500;
+    display: inline-block;
+    align-self: flex-start;
+    width: fit-content;
+    margin: 10px;
+    text-align: left;
+}
+
+.senderText {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 20px 5px 20px;
+    font-weight: 500;
+    display: flex;
+    align-self: flex-end;
+    width: fit-content;
+    margin: 10px;
+    text-align: left;
+}
+
+.userQuerySection {
+    width: 100%;
+    position:sticky;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: #282c34;
+}
+
+.userQuery {
+    width: 90%;
+    padding: 10px;
+    border: 5px solid #282c34;
+    border-radius: 10px;
+    position:sticky;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.inputArea {
+    width: 100%;
+    position:sticky;
+    bottom:0;
+    left:0;
+    right:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.isTyping {
+    position: sticky;
+    bottom: 3rem;
+    margin-left: 1rem;
+    color: white;
+    font-size: small;
+    align-self: end;
+    display: flex;
+}
