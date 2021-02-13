@@ -1,0 +1,26 @@
+.loginScreen {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    color: #61dafb;
+}
+
+.loginid {
+    height: 2rem;
+    width: 14rem;
+}
+
+.loginbutton {
+    background: #61dafb;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 3rem;
+    width: 15rem;
+    border: none;
+    cursor: pointer;
+}
